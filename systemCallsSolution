@@ -1,0 +1,9 @@
+fork - creates an exact duplicate of the process thats called with the function. The new process is called child process
+         fails when the called object is a not a process
+stat - displays file or file system status
+kill - sends a signal to a process
+         fails if you dont give it a process to send a signal to
+mmap - map or unmap files or devices into memory
+chmod - changes the file mode bits. Basically it changes whos alowed to do what with a file
+         fails if used with wrong operands
+waitpid - waits for a process to change its state
